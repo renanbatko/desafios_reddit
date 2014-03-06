@@ -83,5 +83,8 @@ int main(void){
 			printf("False\n");	
 	}
 	
+	free(frase);
+	free(vet_result);
+	
 	return 0;
 }
